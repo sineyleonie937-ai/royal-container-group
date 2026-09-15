@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Container Group — RCG</title>
+<meta name="description" content="Royal Container Group — vente de conteneurs 20 pieds et 40 pieds, neufs et d'occasion, à Lisbonne.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#17202a;line-height:1.6}
+header{background:linear-gradient(135deg,#07131f,#16344b);color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-size:1.35rem;font-weight:800;letter-spacing:.5px}.logo span{color:#f2b84b}
+nav a{color:white;text-decoration:none;margin-left:18px;font-weight:600;font-size:.95rem}
+.hero{min-height:520px;display:flex;align-items:center;padding:70px 6%;color:white;background:linear-gradient(90deg,rgba(4,14,24,.9),rgba(4,14,24,.45)),url("https://images.unsplash.com/photo-1767884163408-fc4fc6b2c0a0?auto=format&fit=crop&fm=jpg&q=85&w=1800") center/cover}
+.hero-content{max-width:700px}.badge{display:inline-block;background:#f2b84b;color:#111;padding:7px 13px;border-radius:30px;font-weight:800;font-size:.8rem;margin-bottom:18px}
+h1{font-size:clamp(2.3rem,6vw,4.5rem);line-height:1.05;margin-bottom:18px}
+.hero p{font-size:1.1rem;max-width:620px;color:#eef4f8;margin-bottom:25px}
+.btn{display:inline-block;background:#18a957;color:white;text-decoration:none;padding:13px 20px;border-radius:10px;font-weight:800;margin-right:8px}
+.btn.secondary{background:white;color:#17202a}
+section{padding:65px 6%}.section-title{text-align:center;margin-bottom:35px}
+.section-title h2{font-size:2rem}.section-title p{color:#66717c}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px rgba(20,35,50,.10);transition:.2s}
+.card:hover{transform:translateY(-4px)}
+.card img{width:100%;height:210px;object-fit:cover;display:block}
+.card-body{padding:20px}.card h3{font-size:1.2rem;margin-bottom:4px}.type{color:#66717c;font-size:.9rem}.price{font-size:1.65rem;font-weight:900;margin:12px 0;color:#0d3048}
+.card .btn{width:100%;text-align:center;margin:0}
+.info{background:#0b1b28;color:white}
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.info-box{padding:24px;background:#122a3c;border-radius:16px}.info-box h3{margin-bottom:8px;color:#f2b84b}
+footer{background:#07131f;color:#dce5eb;text-align:center;padding:25px 6%;font-size:.9rem}
+footer a{color:#f2b84b}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){header{padding:15px 5%}nav a{margin-left:10px;font-size:.82rem}.hero{min-height:500px;padding:55px 5%}section{padding:50px 5%}.grid,.info-grid{grid-template-columns:1fr}.card img{height:230px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ROYAL CONTAINER <span>GROUP</span> · RCG</div>
+  <nav>
+    <a href="#produits">Produits</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <span class="badge">RCG · LISBONNE, PORTUGAL</span>
+    <h1>Des conteneurs fiables pour vos projets.</h1>
+    <p>Conteneurs maritimes de 20 pieds et 40 pieds, neufs ou d'occasion. Livraison disponible sur devis.</p>
+    <a class="btn" href="https://wa.me/351925835764?text=Bonjour%20Royal%20Container%20Group%2C%20je%20souhaite%20avoir%20des%20informations%20sur%20vos%20conteneurs." target="_blank">WhatsApp</a>
+    <a class="btn secondary" href="#produits">Voir les conteneurs</a>
+  </div>
+</section>
+
+<section id="produits">
+  <div class="section-title">
+    <h2>Nos conteneurs</h2>
+    <p>Prix affichés directement sur le site · Livraison sur devis</p>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1750593481405-876be1140853?auto=format&fit=crop&fm=jpg&q=85&w=1000" alt="Conteneur maritime blanc">
+      <div class="card-body">
+        <h3>Conteneur 20 pieds</h3><div class="type">Occasion</div>
+        <div class="price">1 000 €</div>
+        <a class="btn" href="https://wa.me/351925835764?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20conteneur%2020%20pieds%20d'occasion%20%C3%A0%201000%20%E2%82%AC." target="_blank">Demander ce conteneur</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1767884163408-fc4fc6b2c0a0?auto=format&fit=crop&fm=jpg&q=85&w=1000" alt="Conteneurs maritimes colorés">
+      <div class="card-body">
+        <h3>Conteneur 20 pieds</h3><div class="type">Neuf</div>
+        <div class="price">1 500 €</div>
+        <a class="btn" href="https://wa.me/351925835764?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20conteneur%2020%20pieds%20neuf%20%C3%A0%201500%20%E2%82%AC." target="_blank">Demander ce conteneur</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1759272548470-d0686d071036?auto=format&fit=crop&fm=jpg&q=85&w=1000" alt="Conteneurs dans un port">
+      <div class="card-body">
+        <h3>Conteneur 40 pieds</h3><div class="type">Occasion</div>
+        <div class="price">2 000 €</div>
+        <a class="btn" href="https://wa.me/351925835764?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20conteneur%2040%20pieds%20d'occasion%20%C3%A0%202000%20%E2%82%AC." target="_blank">Demander ce conteneur</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1725449264087-28926bc1a610?auto=format&fit=crop&fm=jpg&q=85&w=1000" alt="Conteneurs maritimes empilés">
+      <div class="card-body">
+        <h3>Conteneur 40 pieds</h3><div class="type">Neuf</div>
+        <div class="price">2 500 €</div>
+        <a class="btn" href="https://wa.me/351925835764?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20conteneur%2040%20pieds%20neuf%20%C3%A0%202500%20%E2%82%AC." target="_blank">Demander ce conteneur</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="info" id="contact">
+  <div class="section-title">
+    <h2>Royal Container Group</h2>
+    <p style="color:#c8d4dc">Votre contact pour les conteneurs à Lisbonne</p>
+  </div>
+  <div class="info-grid">
+    <div class="info-box"><h3>📍 Localisation</h3><p>Lisbonne, Portugal</p></div>
+    <div class="info-box"><h3>📱 WhatsApp</h3><p>+351 925 835 764</p></div>
+    <div class="info-box"><h3>🚚 Livraison</h3><p>Disponible sur devis selon la destination.</p></div>
+  </div>
+  <div style="text-align:center;margin-top:28px">
+    <a class="btn" href="https://wa.me/351925835764?text=Bonjour%20Royal%20Container%20Group%2C%20je%20souhaite%20un%20devis." target="_blank">Contacter RCG sur WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Royal Container Group · RCG · Lisbonne, Portugal<br>
+  Photos : Unsplash, utilisées selon la licence Unsplash.
+</footer>
+</body>
+</html>
